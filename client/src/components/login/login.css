@@ -1,0 +1,102 @@
+.headline {
+    font-size: 50px;
+    color: purple;
+    letter-spacing: 1px;
+}
+
+
+.login-square {
+    margin-top: 80px;
+    border: 2px solid lavenderblush;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+  }
+
+  .signin-heading {
+    color: lavenderblush;
+    letter-spacing: 2px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-input, .password-input {
+    outline: none;
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 270px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 7px;
+    color: rgb(85, 85, 85);
+}
+
+.button-area {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: purple;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-right: 12px;
+}
+
+.login-btn:hover {
+    opacity: 0.8;
+}
+
+.login-btn:active {
+    transform: translateY(2px);
+}
+
+.register-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.register {
+    font-size: 15px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 0;
+    color: lavender;
+}
+
+
+
+.not-a-member {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    color: lavender;
+  }
+
+
+

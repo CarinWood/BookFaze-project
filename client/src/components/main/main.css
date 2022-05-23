@@ -1,0 +1,56 @@
+.messages-div {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+
+.write-message {
+    padding-top: 15px;
+    width: 600px;
+    height: 25vh;
+    background-color: lavender;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.7);
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.write-message-input {
+    width: 500px;
+    height: 98px;
+    resize: none;
+    outline: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.post-btn {
+    background-color: purple;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.post-btn:active {
+    transform:translateY(2px);
+}
+
+.post-btn:hover {
+    opacity: 0.8;
+}
+
+
+

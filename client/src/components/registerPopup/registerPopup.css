@@ -1,0 +1,48 @@
+.popup {
+    width: 520px;
+    height: 250px;
+    border: 2px solid lavenderblush;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 15px;
+    color: lavenderblush;
+    letter-spacing: 1px;
+}
+
+.congrats-text {
+    color: lavenderblush;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.popup-heading {
+    color: lavenderblush;
+    font-size: 19px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.ok-btn {
+    background-color: purple;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 30px;
+}
+
+.ok-btn:hover {
+    opacity: 0.8;
+}
+
+.ok-btn:active {
+    transform: translateY(2px);
+}
+

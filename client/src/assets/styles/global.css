@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf')
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  background: linear-gradient(to right, #4E3883, #a292c7)
+
+}

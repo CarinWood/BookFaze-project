@@ -1,0 +1,76 @@
+.register-card {
+    width: 600px;
+    height: 380px;
+    border: 2px solid lavender;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+
+.join-bookface {
+    margin-top: 30px;
+    color: lavender;
+    margin-bottom: 0px;
+
+}
+
+.fill-in {
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.register-username-div, .register-password-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;  
+}
+
+.register-username, .register-password {
+    color: purple;
+    font-size: 22px;
+    margin-right: 10px;
+    width: 120px;
+    text-align: left;
+ 
+}
+
+.register-username-input, .register-email-input, .register-password-input {
+    outline: none;
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 270px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 7px;
+    color: rgb(85, 85, 85);
+}
+
+.register-button {
+    background-color: purple;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 30px;
+  
+}
+
+.register-button:hover {
+    opacity: 0.8;
+}
+
+.register-button:active {
+    transform: translateY(2px);
+}
+
+

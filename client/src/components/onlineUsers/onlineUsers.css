@@ -1,0 +1,52 @@
+.online-users-wrapper {
+    position: fixed;
+    left: 3%;
+    top: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: transparent;
+  
+}
+
+.online-username-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: lavender;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.green-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid lavenderblush;
+    background-color: rgb(10, 196, 23); 
+    position: absolute;
+    z-index: 20;
+    top: 30%;
+    left: 35%;
+}
+
+.online-user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+.online-user-name {
+    margin-right: 3px;
+    margin-left: 20px;
+}
+
+.online-headline {
+    color: lavender;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,147 @@
+.userpage {
+    position: relative;
+}
+
+.profile-heading {
+    color: lavenderblush;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.top-div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image-section {
+    margin-top: 0px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.choose {
+    color: lavenderblush;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+
+.upload-image-input {
+    width: 300px;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.submit-image-btn {
+    background-color: #4E3883;
+    color: lavender;
+    padding: 7px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+.submit-image-btn:hover {
+    opacity: 0.8;
+}
+
+.submit-image-btn:active {
+    transform: translateY(2px);
+}
+
+.upload-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-image {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.picandname-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-user-div {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.delete-text {
+    color: lavenderblush;
+    font-size: 20px;
+    width: 520px;
+}
+
+.delete-heading {
+    color: lavenderblush;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.delete-account-button {
+    background-color: #4E3883;
+    color: lavender;
+    padding: 7px 10px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.delete-account-button:hover {
+    opacity: 0.8px;
+}
+
+.delete-account-button:active {
+    transform: translateY(2px);
+}
+
