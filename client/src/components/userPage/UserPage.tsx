@@ -59,7 +59,7 @@ const UserPage = () => {
         <h2 className='profile-heading'>Edit your profile image</h2>
         <div className='top-div'>
         <section className='profile-image-section'>
-          <p className='choose'>Upload your own profile image:</p>
+          <p className='choose'>Upload your own profile image (URL):</p>
           <div className='upload-div'>
           <input 
           value={userImage}
