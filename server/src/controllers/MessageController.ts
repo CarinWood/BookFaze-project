@@ -118,7 +118,7 @@ const updateMessageById = (req: Request, res: Response) => {
 
 const getMessageByName = (req: Request, res: Response) => {
 	try {
-		MessageModel.find({name: req.params.name} , '', (error: ErrorCallback, users: Array<ReadMessage>) => {
+		MessageModel.find({username: req.params.username} , '', (error: ErrorCallback, users: Array<ReadMessage>) => {
 			if (error) {
 				Logger.error(error)
 				res.status(StatusCode.BAD_REQUEST).send({

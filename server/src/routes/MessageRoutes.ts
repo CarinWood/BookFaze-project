@@ -9,7 +9,7 @@ const MessageRoutes = (app: Express) => {
 
     //READ
     app.post('/getall', MessageController.getAllMessages)
-    app.post('/getbyname/:name', MessageController.g)
+
 
     //UPDATE
     app.put('/message/update/:id', MessageController.updateMessageById)
