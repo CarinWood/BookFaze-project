@@ -116,6 +116,26 @@ const updateMessageById = (req: Request, res: Response) => {
 	}
 }
 
+const getMessageByName = (req: Request, res: Response) => {
+	try {
+		MessageModel.find({name: req.params.name} , '', (error: ErrorCallback, users: Array<ReadMessage>) => {
+			if (error) {
+				Logger.error(error)
+				res.status(StatusCode.BAD_REQUEST).send({
+					error: 'Error getting user'
+				})
+			} else {
+				Logger.http(users)
+				res.status(StatusCode.OK).send(users)
+			}
+		})
+	} catch (error) {
+		Logger.error(error)
+		res.status(StatusCode.BAD_REQUEST).send({
+			error: 'Error getting user by name'
+		})
+	}
+}
 
 
 
@@ -130,5 +150,6 @@ export default {
     createMessage,
     getAllMessages,
 	deleteMessageById,
-	updateMessageById
+	updateMessageById,
+	getMessageByName
 }
